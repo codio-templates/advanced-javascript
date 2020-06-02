@@ -1,0 +1,7 @@
+{
+  "verbose": true,
+  "reporters": [
+    "default",
+    "./myReporter.js"
+  ]
+}

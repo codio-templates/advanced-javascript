@@ -1,0 +1,27 @@
+#comment {
+  font-size: 0.75em;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3em;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5em;
+}
+
+p, h1 {
+  text-align: center;
+  color: #ecf0f1;
+}
+
+body {
+  background-color: #2c3e50;
+}
