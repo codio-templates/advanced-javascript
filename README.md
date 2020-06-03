@@ -21,7 +21,7 @@ Use the "Debug Current NodeJS File" on the far right of the top menu bar to laun
 Use your browser's built in Developer Tools to debug other web projects such as HTML/CSS.
 
 ### Reconfigure your Panels for easier development
-Use the **View > Panels** menu on the top tool bar to segment your screen.
+Use the **View > Panels** menu on the top toolbar to segment your screen.
 
 Simply drag the tab of the file or terminal (the part with the name) you want to move into the new panel.
 

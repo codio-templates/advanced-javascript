@@ -12,7 +12,7 @@ npm install jest --global
 
 ## Create Jest Config File
 
-Jest requires a config file in json format. In the directory with your unit tests, create a file called `tryItConfig.json`. Turn on the verbose mode for better error messages. Here are a [list](https://jestjs.io/docs/en/configuration) of all of the configuration options.
+Jest requires a config file in json format. In the directory with your unit tests, create a file called `tryItConfig.json`. Turn on the verbose mode for better error messages. Here is a [list](https://jestjs.io/docs/en/configuration) of all of the configuration options.
 
 **Important**, the config file plays an important role if you are looking to have a partial points question with Jest. Config files for partial points problems need to call a test reporter that will send the student score back to Codio. You should have one config file for tests that do not make an HTTP request with the student and another config file for those tests that do make an HTTP request. More information on this can be found by clicking the button below. {Config File | go-to-section-titled}(unit test helper script)
 
