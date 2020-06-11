@@ -115,7 +115,13 @@
   {
    "id": "482c3340-f888-3cd4-98bf-ec745266722b",
    "title": "Unit Test (Jest)",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Unit-Test--Jest--482c.md",
@@ -262,7 +268,13 @@
   {
    "id": "5f015657-bc11-c7fb-a7bf-a3e24478cfd5",
    "title": "Partial Points",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Partial-Points-5f01.md",
@@ -422,7 +434,13 @@
   {
    "id": "e2792d31-2ad3-9f69-18d9-75301f7cfe2e",
    "title": "Linters",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Linters-e279.md",
@@ -518,6 +536,18 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Testing-Student-Code-37af.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "learningObjectives": ""
+  },
+  {
+   "id": "6826d32f-f52a-e615-14a6-786e82ba4f4b",
+   "title": "Third-Party Libraries",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Third-Party-Libraries-6826.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
