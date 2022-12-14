@@ -1,0 +1,24 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "ef95eb22-a498-45c9-8686-90ca50963a25",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"order": [
+		"Installing-the-Linter-6b1c",
+		"JSLint-a460",
+		"JSHint-e191",
+		"Testing-Student-Code-0681"
+	],
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Linters",
+	"type": "section"
+}

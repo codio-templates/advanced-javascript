@@ -1,0 +1,23 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": ".guides/secure/helperPartialCustom.js"
+		}
+	],
+	"id": "467973e7-a2bb-4401-a317-513d67ba58f6",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Helper Script for Custom Code Tests",
+	"type": "page"
+}

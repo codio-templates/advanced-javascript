@@ -1,0 +1,28 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "#preview: js_examples/p5_library.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: https://{{domain5000}}/"
+		}
+	],
+	"id": "d097fc42-1e4f-0d8d-c19a-b0ca5a52a1d2",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Adding a Library",
+	"type": "page"
+}

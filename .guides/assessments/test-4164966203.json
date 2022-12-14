@@ -1,0 +1,43 @@
+{
+	"source": {
+		"arePartialPointsAllowed": true,
+		"bloomsObjectiveLevel": "",
+		"command": "node .guides/secure/helperPartialCustom.js",
+		"guidance": "Here is one possible solution:\n\n```javascript\nclass Laptop {\n  constructor(manufacturer, size, processor, ram) {\n    this.manufacturer = manufacturer\n    this.size = size\n    this.processor = processor\n    this.ram = ram\n  }\n  \n  printLaptop() {\n    return(`This is a ${this.size}-inch ${this.manufacturer} laptop. It has a ${this.processor} GHz CPU and ${this.ram} GB of RAM.`)\n  }\n}\n\nmodule.exports = Laptop\n```",
+		"instructions": "Submit your work to be evaluated.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				".guides/secure/partialPointsCustom.js",
+				"student_code/studentPartialPointsUnit.js",
+				".guides/secure/partial_points_custom.js"
+			],
+			"opened": [
+				{
+					"content": ".guides/secure/partialPointsCustom.js",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "student_code/studentPartialPointsUnit.js",
+					"panelNumber": 1,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "Custom Test, Partial Points",
+		"oneTimeTest": true,
+		"points": 5,
+		"showGuidanceAfterResponse": true,
+		"showName": true,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-4164966203",
+	"type": "test"
+}

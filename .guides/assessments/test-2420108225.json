@@ -1,0 +1,36 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "python3 .guides/secure/jest_helper.py",
+		"guidance": "Here is one possible solution:\n\n```javascript\nfunction circleArea(radius){\n  if (typeof radius !== \"number\") {\n    throw \"Radius must be a number\"\n  }\n  if (radius \u003c 0) {\n    throw \"Radius must be a positive number\"\n  }\n  return Math.PI * Math.pow(radius, 2)\n}\n\nmodule.exports = circleArea\n```",
+		"instructions": "Write a function called `circleArea` that takes a parameter for the radius. The function should return the area of a circle for the given radius. Your program should throw the error `Radius must be a number` when a non-numeric value is passed to the function. It should also throw the error `Radius must be a positive number` when a negative number is passed to `circleArea`.\n\nSubmit your code to be evaluated.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"student_code/circleArea.js"
+			],
+			"opened": [
+				{
+					"content": "student_code/circleArea.js",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "Unit Test Example",
+		"oneTimeTest": true,
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": true,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-2420108225",
+	"type": "test"
+}

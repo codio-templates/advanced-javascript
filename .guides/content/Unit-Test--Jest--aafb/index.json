@@ -1,0 +1,27 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "aafbf1ec-fbe8-dddf-a557-7312dd370f9e",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"order": [
+		"Unit-Test-Example-2483",
+		"Adding-the-Assessment-e4cd",
+		"Installing-the-Framework-f9f0",
+		"Helper-Script-2d9f",
+		"Unit-Test-Script-2ba9",
+		"Adding-the-Assessment-9d83",
+		"Testing-Student-Code-bd54"
+	],
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Unit Test (Jest)",
+	"type": "section"
+}

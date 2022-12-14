@@ -1,0 +1,25 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "d90d6392-1493-137e-96d3-646a921f78ac",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"order": [
+		"DOM-Manipulation-4b7e",
+		"Node-Test-Example-5278",
+		"The-Custom-Script-7718",
+		"Testing-Student-Code-835a",
+		"Helper-Script-c7a2"
+	],
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Custom Code Tests",
+	"type": "section"
+}

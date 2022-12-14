@@ -1,0 +1,38 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jslint\",\"files\":[\"student_code/jslint_example.js\"],\"partialPoints\":false,\"maxPoints\":1}",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"guidance": "```javascript\n\"use strict\";\n\nfunction circleArea(radius) {\n    if (typeof radius !== \"number\") {\n        throw \"Radius must be a number\";\n    }\n    if (radius \u003c 0) {\n        throw \"Radius must be a positive number\";\n    }\n    return Math.PI * Math.pow(radius, 2);\n}\n\nmodule.exports = circleArea;",
+		"instructions": "Click the button below to check your code for stylistic errors.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"student_code/jslint_example.js",
+				"student_code/circleArea.js"
+			],
+			"opened": [
+				{
+					"content": "student_code/jslint_example.js",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "JSLint Example",
+		"oneTimeTest": false,
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": true,
+		"timeoutSeconds": 300
+	},
+	"taskId": "test-3198803100",
+	"type": "test"
+}

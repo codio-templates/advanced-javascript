@@ -1,0 +1,22 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Custom-Code-Tests-d90d",
+		"Unit-Test--Jest--aafb",
+		"Partial-Points-9b37",
+		"Linters-ef95",
+		"Third-Party-Libraries-d063"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": false,
+	"theme": "light",
+	"title": "Advanced Features in JavaScript",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

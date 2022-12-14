@@ -1,0 +1,26 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "9b375d86-a141-d175-d70f-2d4759e31fec",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"order": [
+		"Custom-Code-Test-Example-9996",
+		"Helper-Script-for-Custom-Code-Tests-4679",
+		"Unit-Test-Example-8a09",
+		"Unit-Test-Helper-Script-7d8c",
+		"Coding-the-Unit-Test-0818",
+		"Custom-Test-Reporter-4fb4"
+	],
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Partial Points",
+	"type": "section"
+}

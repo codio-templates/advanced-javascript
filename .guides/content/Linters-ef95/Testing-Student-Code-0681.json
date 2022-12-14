@@ -1,0 +1,28 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "student_code/jslint_example.js"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "student_code/jshint_example.js"
+		}
+	],
+	"id": "0681555a-39b4-71a9-845e-0b9f80bcb7bf",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Testing Student Code",
+	"type": "page"
+}

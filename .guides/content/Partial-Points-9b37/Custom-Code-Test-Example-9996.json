@@ -1,0 +1,28 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": ".guides/secure/partialPointsCustom.js"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "student_code/studentPartialPointsUnit.js"
+		}
+	],
+	"id": "99964873-1e05-424a-75d0-4fa1799c8a68",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Custom Code Test Example",
+	"type": "page"
+}

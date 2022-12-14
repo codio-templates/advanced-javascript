@@ -1,0 +1,38 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "js_examples/preview.html"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#preview: js_examples/preview.html"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "js_examples/preview.css"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "js_examples/preview.js"
+		}
+	],
+	"id": "ff341c21-637c-546d-646f-f003a161d821",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Preview the HTML",
+	"type": "page"
+}

@@ -1,0 +1,28 @@
+{
+	"chapter": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": ".guides/secure/jestHelperPartial.js"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": ".guides/secure/jest.config.json"
+		}
+	],
+	"id": "7d8cf018-0067-a087-6b73-5a1d61e62e59",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Unit Test Helper Script",
+	"type": "page"
+}
