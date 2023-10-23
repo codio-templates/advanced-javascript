@@ -9,11 +9,7 @@ const studentFile = "/home/codio/workspace/student_code/circleAreaPartial.js"
 let newLocation = "/home/codio/workspace/.guides/secure/circleAreaPartial.js"
 
 // copy student file to the new location
-fs.copyFileSync(studentFile, newLocation, err => {
-  if (err) {
-    console.log(err)
-  }
-})
+fs.copyFileSync(studentFile, newLocation)
 
 // run the code test on student file
 const points = exec.spawn("jest", [".guides/secure/circleAreaPartial.test.js", "--notify", "--config=.guides/secure/jest.config.json"], { cwd: "/home/codio/workspace", stdio: "inherit" })

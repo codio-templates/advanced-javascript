@@ -1,6 +1,6 @@
 # Previewing the HTML
 
-Codio allows you to specify the [layout](https://docs.codio.com/courses/settings-actions/#page) of a Guide page. This includes selecting which documents to show to students. When adding an open tab, there are several options. The default is `File`, which will open an HTML. From here, students can modify the contents of the file, but it will not show the rendered HTML. To do that, be sure to select the `Preview` option. 
+Codio allows you to specify the [layout](https://docs.codio.com/common/develop/ide/workspace/panels.html#layouts) of a Guide page. This includes selecting which documents to show to students. When adding an open tab, there are several options. The default is `File`, which will open an HTML. From here, students can modify the contents of the file, but it will not show the rendered HTML. To do that, be sure to select the `Preview` option. 
 
 ![.guides/img/preview_html](.guides/img/preview_html.png)
 

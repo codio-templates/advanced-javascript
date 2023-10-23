@@ -9,11 +9,7 @@ const studentFile = "/home/codio/workspace/student_code/studentPartialPointsUnit
 let newLocation = "/home/codio/workspace/.guides/secure/studentPartialPointsUnit.js"
 
 // copy student file to the new location
-fs.copyFileSync(studentFile, newLocation, err => {
-  if (err) {
-    console.log(err)
-  }
-})
+fs.copyFileSync(studentFile, newLocation)
 
 // run the code test on student file
 const points = exec.fork("/home/codio/workspace/.guides/secure/partialPointsCustom.js")

@@ -9,7 +9,7 @@ This grading script is written in Python. It could easily be written in Node or 
 
 The `os` module is used to create a file path to the student code, the `subprocess` module is used to run the student code, and the `sys` module is used to send the exit code to Codio.
 
-The `path` variable contains the path to the student code, and the `file` variable contains the name of the student file. These two values are combined to create the `student_code` variable, which is used later on in the program. The `expected_ouput` variable should contain the expected output of what the student code should produce.
+The `path` variable contains the path to the student code, and the `file` variable contains the name of the student file. These two values are combined to create the `student_code` variable, which is used later on in the program. The `student_output` variable should contain the expected output of what the student code should produce.
 
 ## Functions
 

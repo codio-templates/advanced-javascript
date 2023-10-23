@@ -18,4 +18,4 @@ The `onTestResult` event listener will run once all of the tests have finished r
 ### Passing the Grade to Codio
 [Show Setup Section](open_file .guides/secure/myReporter.js panel=0 ref="// Make" count=3)
 
-Once all of the passed unit tests have been counted, use an HTTP request as shown by the Codio [documentation](https://docs.codio.com/courses/assessments/#test-code-location).
+Once all of the passed unit tests have been counted, use an HTTP request or one of the functions available as shown by the Codio [documentation](https://docs.codio.com/instructors/authoring/assessments/partial-points.html#example-bash-grading-script-for-partial-points).

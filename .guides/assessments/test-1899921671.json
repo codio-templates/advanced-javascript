@@ -1,35 +1,38 @@
 {
 	"source": {
-		"arePartialPointsAllowed": true,
-		"bloomsObjectiveLevel": "",
-		"command": "node .guides/secure/jestHelperPartial.js",
-		"guidance": "Here is one possible solution:\n\n```javascript\nfunction circleArea(radius){\n  if (typeof radius !== \"number\") {\n    throw \"Radius must be a number\"\n  }\n  if (radius \u003c 0) {\n    throw \"Radius must be a positive number\"\n  }\n  return Math.PI * Math.pow(radius, 2)\n}\n\nmodule.exports = circleArea\n```",
+		"name": "Partial Points Unit Test (Jest)",
+		"showName": true,
 		"instructions": "Write a function called `circleArea` that takes a parameter for the radius. The function should return the area of a circle for the given radius. Your program should throw the error `Radius must be a number` when a non-numeric value is passed to the function. It should also throw the error `Radius must be a positive number` when a negative number is passed to `circleArea`.\n\nSubmit your code to be evaluated.",
-		"learningObjectives": "",
+		"command": "/bin/bash .guides/secure/helperPartialPoints.sh",
+		"timeoutSeconds": 40,
+		"guidance": "Here is one possible solution:\n\n```javascript\nfunction circleArea(radius){\n  if (typeof radius !== \"number\") {\n    throw \"Radius must be a number\"\n  }\n  if (radius < 0) {\n    throw \"Radius must be a positive number\"\n  }\n  return Math.PI * Math.pow(radius, 2)\n}\n\nmodule.exports = circleArea\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 3,
+		"arePartialPointsAllowed": true,
 		"metadata": {
-			"files": [
-				"student_code/circleAreaUnit.js"
-			],
-			"opened": [
-				{
-					"content": "student_code/circleAreaUnit.js",
-					"panelNumber": 0,
-					"type": "file"
-				}
-			],
 			"tags": [
 				{
 					"name": "Assessment Type",
 					"value": "Advanced Code Test"
 				}
+			],
+			"files": [
+				"student_code/circleAreaPartial.js",
+				"student_code/circleAreaUnit.js"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "student_code/circleAreaPartial.js"
+				}
 			]
 		},
-		"name": "Partial Points Unit Test (Jest)",
-		"oneTimeTest": true,
-		"points": 3,
-		"showGuidanceAfterResponse": true,
-		"showName": true,
-		"timeoutSeconds": 40
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
 	},
 	"taskId": "test-1899921671",
 	"type": "test"

@@ -1,7 +1,12 @@
 {
 	"chapter": false,
 	"contentType": "markdown",
-	"files": [],
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
 	"id": "d0639780-517a-913d-ce36-daf74ce6b8a4",
 	"learningObjectives": "",
 	"order": [
@@ -10,8 +15,9 @@
 		"localhost-af27"
 	],
 	"path": [],
-	"reset": [],
 	"teacherOnly": false,
 	"title": "Third-Party Libraries",
-	"type": "section"
+	"type": "section",
+	"layout": "1-panel",
+	"closeTerminalSession": true
 }

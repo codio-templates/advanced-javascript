@@ -1,36 +1,38 @@
 {
 	"source": {
-		"arePartialPointsAllowed": false,
-		"bloomsObjectiveLevel": "",
-		"codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jshint\",\"files\":[\"student_code/jshint_example.js\"],\"partialPoints\":false,\"maxPoints\":1}",
-		"command": "python /usr/share/codio/assessments/assessments.py",
-		"guidance": "Here is the solution:\n\n```javascript\nfunction circleArea(radius){\n  if (typeof radius !== \"number\") {\n    throw \"Radius must be a number\";\n  }\n  if (radius \u003c 0) {\n    throw \"Radius must be a positive number\";\n  }\n  return Math.PI * Math.pow(radius, 2);\n}\n\nmodule.exports = circleArea;\n```",
+		"name": "JSHint Example",
+		"showName": true,
 		"instructions": "Click the button below to check your code for stylistic errors.",
-		"learningObjectives": "",
+		"command": "python /usr/share/codio/assessments/assessments.py",
+		"codeEnvConfig": "{\"type\":\"javascript\",\"subtype\":\"jshint\",\"files\":[\"student_code/jshint_example.js\"],\"maxPoints\":1,\"timeout\":300}",
+		"timeoutSeconds": 300,
+		"guidance": "Here is the solution:\n\n```javascript\nfunction circleArea(radius){\n  if (typeof radius !== \"number\") {\n    throw \"Radius must be a number\";\n  }\n  if (radius < 0) {\n    throw \"Radius must be a positive number\";\n  }\n  return Math.PI * Math.pow(radius, 2);\n}\n\nmodule.exports = circleArea;\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"maxAttemptsCount": 0,
+		"points": 1,
+		"arePartialPointsAllowed": false,
 		"metadata": {
-			"files": [
-				"student_code/jshint_example.js"
-			],
-			"opened": [
-				{
-					"content": "student_code/jshint_example.js",
-					"panelNumber": 0,
-					"type": "file"
-				}
-			],
 			"tags": [
 				{
 					"name": "Assessment Type",
 					"value": "Advanced Code Test"
 				}
+			],
+			"files": [
+				"student_code/jshint_example.js"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"panelNumber": 0,
+					"content": "student_code/jshint_example.js"
+				}
 			]
 		},
-		"name": "JSHint Example",
-		"oneTimeTest": true,
-		"points": 1,
-		"showGuidanceAfterResponse": true,
-		"showName": true,
-		"timeoutSeconds": 300
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
 	},
 	"taskId": "test-3096515005",
 	"type": "test"
